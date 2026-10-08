@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@internationalized/date": "^3.12.4",
     "@nuxt/ui": "^4.11.3",
     "nuxt": "4.5.2",
     "tailwindcss": "^4.3.3",
@@ -17,6 +18,8 @@
     "vue-router": "^5.3.1"
   },
   "devDependencies": {
-    "@iconify-json/lucide": "^1.2.141"
+    "@iconify-json/lucide": "^1.2.141",
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.3.12"
   }
 }
